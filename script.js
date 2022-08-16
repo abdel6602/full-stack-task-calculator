@@ -36,7 +36,7 @@ function calc(operand2){
         return parseInt(operand1) * parseInt(operand2)
     }
     if(operator === 'divide'){
-        return parseFloat(operand1) * parseFloat(operand2)
+        return parseFloat(operand1) / parseFloat(operand2)
     }
 }
 
